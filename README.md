@@ -28,15 +28,15 @@ Autofix is a modern web-based platform designed to connect vehicle owners with r
 ---
 
 ## 📁 Project Structure
-Autofix/
-├── src/
-│ ├── com.autofix.servlets/
+Autofix
+├── src
+│ ├── com.autofix.servlets
 │ │ └── ServiceRequestServlet.java
-├── web/
+├── web
 │ ├── index.html
 │ ├── services.html
 │ └── contact.html
-├── WEB-INF/
+├── WEB-INF
 │ ├── web.xml
 ├── sql
 │└── create_tables.sql
@@ -47,6 +47,7 @@ Set up your database:
 Import sql/create_tables.sql into your MySQL server.
 Update DB credentials in your Java Servlet code.
 Deploy to Tomcat using your IDE or XAMPP.
+
 Open in browser:
 http://localhost:8080/autofix/
 

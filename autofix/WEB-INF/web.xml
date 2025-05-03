@@ -1,0 +1,37 @@
+<web-app>
+    <servlet>
+        <servlet-name>CreateUser</servlet-name>
+        <servlet-class>CreateUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateUser</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadUsers</servlet-name>
+        <servlet-class>ReadUsers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadUsers</servlet-name>
+        <url-pattern>/read</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateUser</servlet-name>
+        <servlet-class>UpdateUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUser</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteUser</servlet-name>
+        <servlet-class>DeleteUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUser</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+</web-app>

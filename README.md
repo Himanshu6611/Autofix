@@ -29,18 +29,31 @@ Autofix is a modern web-based platform designed to connect vehicle owners with r
 
 ## 📁 Project Structure
 Autofix
+
 ├── src
+
 │ ├── com.autofix.servlets
+
 │ │ └── ServiceRequestServlet.java
+
 ├── web
+
 │ ├── index.html
+
 │ ├── services.html
+
 │ └── contact.html
+
 ├── WEB-INF
+
 │ ├── web.xml
+
 ├── sql
+
 │└── create_tables.sql
+
 └── README.md
+
 
 Import into your IDE as a Java Web project.
 Set up your database:
